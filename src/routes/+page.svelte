@@ -2,6 +2,7 @@
 
 <script lang="ts">
     import type { PageData } from './$types';
+    import Footer from "./Footer.svelte";
 
     interface Props {
         data: PageData;
@@ -26,5 +27,5 @@
 <h1>About</h1>
 
 
+<Footer />
 
-<p></p>
