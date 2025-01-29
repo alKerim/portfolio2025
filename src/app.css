@@ -1,3 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+
+ul {
+    list-style-type: disc;          /* Bullet type */
+    padding-left: 20px;             /* Space between left edge and bullets */
+    margin-left: 0;                  /* Remove default margin */
+}
+
+/* Apply to all list items */
+li {
+    /*margin-bottom: 38px;            !* Space between list items *!*/
+    line-height: 1.5;                /* Spacing within multi-line items */
+    text-indent: -0.5em;             /* Negative indent for alignment */
+    padding-left: 0.5em;             /* Positive padding to align text */
+    list-style-position: outside;    /* Bullets outside the text block */
+}
+
+
+.block-element {
+    /*display: block;*/
+    margin-top: 20px;
+}
