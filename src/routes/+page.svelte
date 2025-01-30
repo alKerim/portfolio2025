@@ -2,7 +2,7 @@
 
 <script lang="ts">
     import type { PageData } from './$types';
-    import Footer from "./Footer.svelte";
+    // import Footer from "./Footer.svelte";
 
     interface Props {
         data: PageData;
@@ -58,5 +58,5 @@ Munich, Germany
 </div>
 
 
-<Footer />
+<!--<Footer />-->
 
